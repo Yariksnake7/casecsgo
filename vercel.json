@@ -1,0 +1,12 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "regions": ["fra1"],
+  "env": {
+    "NEXTAUTH_URL": "https://your-domain.vercel.app",
+    "NEXT_PUBLIC_APP_URL": "https://your-domain.vercel.app",
+    "NEXT_PUBLIC_STEAM_RETURN_URL": "https://your-domain.vercel.app/api/auth/callback/steam"
+  }
+}
